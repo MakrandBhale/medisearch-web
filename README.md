@@ -10,4 +10,18 @@ A web end for Medisearch
  
  ## Screenshots
  
- 
+ ### Homepage
+![](https://raw.githubusercontent.com/MakrandBhale/medisearch-web/master/screenshots/home%20page.PNG)
+
+
+### Search Result [0]
+![](https://raw.githubusercontent.com/MakrandBhale/medisearch-web/master/screenshots/search%20results.PNG)
+
+### Search Result [1]
+![](https://raw.githubusercontent.com/MakrandBhale/medisearch-web/master/screenshots/search%20results%202.PNG)
+
+### Login & Sign up 
+
+![](https://raw.githubusercontent.com/MakrandBhale/medisearch-web/master/screenshots/login.PNG)
+
+![](https://raw.githubusercontent.com/MakrandBhale/medisearch-web/master/screenshots/signup.PNG)
