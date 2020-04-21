@@ -1,0 +1,115 @@
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: none !important;
+}
+.search_item {
+    /*margin-top: 12px;*/
+}
+
+#maps {
+    height: 100%;
+    width: 100%;
+}
+.light-background {
+    background-color: #dfdfdf;
+    border-radius: 8px;
+    padding: 4px 8px;
+    display: inline-block;
+}
+
+body {
+    /*padding-top: 75px;*/
+}
+button :focus {
+    outline: none !important;
+}
+
+nav {
+    background-color: transparent;
+}
+#search-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    outline: none;
+    box-shadow: none;
+    border-style: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+/*#search-box-container {
+    border-radius: 12px;
+    padding: 8px 16px;
+    width: 100%;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    border-width: 1px;
+    background-color: #fff;
+}*/
+
+#search-box-container {
+    -webkit-box-shadow: 0 0 5px -2px rgba(41, 41, 41, 1);
+    -moz-box-shadow: 0 0 5px -2px rgba(41, 41, 41, 1);
+    box-shadow: 0 0 5px -2px rgba(41, 41, 41, 1);
+    border-radius: 12px;
+    padding: 8px 16px;
+    border-width: 1px;
+    border-color: transparent;
+    width: 100%;
+    height: 56px;
+    background-color: #fff;
+}
+
+.material-icons.blue600 {
+    color: #3930D8;
+}
+
+.button-bar {
+    margin: 12px;
+}
+
+.offset-container {
+    height: 80px;
+}
+
+#wrapper {
+    position: relative;
+}
+
+#over_map {
+    position: fixed;
+    width: 250px;
+    top: 100px;
+    left: 10px;
+    bottom: 100px;
+    z-index: 99;
+    -webkit-box-shadow: 0 0 5px -2px rgba(41, 41, 41, 1);
+    -moz-box-shadow: 0 0 5px -2px rgba(41, 41, 41, 1);
+    box-shadow: 0 0 5px -2px rgba(41, 41, 41, 1);
+    border-radius: 12px;
+}
+
+#search_result {
+    height: 95%;
+    overflow: auto;
+
+}
+
+.custom-card {
+    background-color: #fff;
+    padding-left: 12px;
+    padding-top: 4px;
+    padding-right: 4px;
+
+    border-bottom: solid 1px #dfdfdf;
+}

@@ -1,0 +1,68 @@
+#search-box {
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+    outline: none;
+    box-shadow: none;
+    border-style: none;
+}
+
+/*
+#search-box-container {
+    border-radius: 12px;
+    padding: 8px 16px;
+    width: 100%;
+    border-style: solid;
+    border-color:  rgb(204, 204, 204);
+    border-width: 1px;
+}
+*/
+
+#search-box-container{
+    -webkit-box-shadow: 0 0 5px -2px rgba(41,41,41,1);
+    -moz-box-shadow: 0 0 5px -2px rgba(41,41,41,1);
+    box-shadow: 0 0 5px -2px rgba(41,41,41,1);
+    border-radius: 12px;
+    padding: 8px 16px;
+    border-width: 1px;
+    border-color: transparent;
+    width: 100%;
+}
+.material-icons.blue600 { color: #3930D8; }
+
+.button-bar{
+    margin: 12px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+.myButton {
+    background-color:#3930D8;
+    border-radius:8px;
+    border:1px solid transparent;
+    display:inline-block;
+    cursor:pointer;
+    color: #fdfdfd;
+    padding:8px 24px;
+    text-decoration:none;
+    font-weight: 600;
+}
+.myButton:hover {
+    border:1px solid #25217a;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+.myButton:focus {
+    outline-width: 0;
+}
+
+.offset-container {
+    height: 80px;
+
+}
